@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# gpt-researcher
 =======
 # 🔎 GPT Researcher
 [![Official Website](https://img.shields.io/badge/Official%20Website-tavily.com-blue?style=flat&logo=world&logoColor=white)](https://tavily.com)
