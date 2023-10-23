@@ -16,8 +16,12 @@ pydantic
 fastapi
 python-multipart
 markdown
-langchain==0.0.308
+langchain==0.0.320
 tavily-python==0.1.9
 permchain==0.0.3
 arxiv
 pymupdf
+fastapi
+weasyprint
+python-dotenv
+fastapi

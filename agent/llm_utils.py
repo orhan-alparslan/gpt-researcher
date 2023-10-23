@@ -18,7 +18,7 @@ CFG = Config()
 openai.api_key = CFG.openai_api_key
 
 from typing import Optional
-import logging
+import logging 
 
 def create_chat_completion(
     messages: list,  # type: ignore
@@ -41,7 +41,7 @@ def create_chat_completion(
 
     # validate input
     if model is None:
-        raise ValueError("Model cannot be None")
+        raise ValueError("model cannot be None")
     if max_tokens is not None and max_tokens > 8001:
         raise ValueError(f"Max tokens cannot be more than 8001, but got {max_tokens}")
     if stream and websocket is None:
