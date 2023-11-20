@@ -18,7 +18,7 @@ python-multipart
 markdown
 langchain==0.0.320
 tavily-python==0.1.9
-permchain==0.0.3
+permchain==0.0.6
 arxiv
 pymupdf
 fastapi
